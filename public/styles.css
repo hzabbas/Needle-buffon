@@ -1,0 +1,79 @@
+input {
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+button {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 50ms ease-in-out;
+    -webkit-transition: all 50ms ease-in-out;
+    -moz-transition: all 50ms ease-in-out;
+    -ms-transition: all 50ms ease-in-out;
+    -o-transition: all 50ms ease-in-out;
+}
+button:hover {
+    color: rgb(255, 6, 6);
+    cursor: pointer;
+    padding:6px 15px ;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 180px;
+    background-color: #ececec;
+    border-radius: 20px;
+    z-index: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.control{
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    height: 24px;
+    line-height: 24px;
+}
+.control input{
+    width: 80px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.control button{
+    margin: 8px;
+    height: 28px;
+}
+
+.pi-label{
+    position: fixed;
+    font-size: 18vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    user-select: none;
+    margin: auto;
+    text-shadow: -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff, 5px 5px 0 #fff;
+}

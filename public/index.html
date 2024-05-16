@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+
+<head>
+    <script src='https://d3js.org/d3.v6.js'></script>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+    <div id='big-pi' class='pi-label'>
+    </div>
+    
+    <div id='container'>
+    </div>
+
+    <div class='controls'>
+        <div class='control'>
+            Needles/sec:&nbsp; <input type='number' id='needles-input' value='10' />
+        </div>
+
+        <div class='control'>
+            Distance:&nbsp; <input type='number' id='distance-input' value='100' />
+        </div>
+
+        <div class='control'>
+            Length:&nbsp; <input type='number' id='length-input' value='100' />
+        </div>
+
+        <div class='control'>
+            Pi:&nbsp; <span id='small-pi'></span>
+        </div>
+
+        <div class='control'>
+            <button id='stop-btn'>
+                Stop
+            </button>
+            <button id='restart-btn'>
+                Restart
+            </button>
+        </div>
+    </div>
+
+
+
+    <script src='index.js'></script>
+
+
+</body>
+
+</html>
